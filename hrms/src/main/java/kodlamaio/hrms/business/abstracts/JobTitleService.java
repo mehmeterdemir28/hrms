@@ -8,6 +8,6 @@ public interface JobTitleService {
 
 	List<JobTitle> getAll();
 
-	JobTitle get(int id);
+	
 
 }

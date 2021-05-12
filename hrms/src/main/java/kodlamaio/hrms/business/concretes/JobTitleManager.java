@@ -25,9 +25,4 @@ public class JobTitleManager implements JobTitleService {
 		return jobTitleDao.findAll();
 	}
 
-	@Override
-	public JobTitle get(int id) {
-		return jobTitleDao.getOne(id);
-	}
-
 }
